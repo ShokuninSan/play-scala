@@ -16,3 +16,7 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-rjs" % "1.0.1")
 addSbtPlugin("com.typesafe.sbt" % "sbt-digest" % "1.0.0")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-mocha" % "1.0.0")
+
+resolvers += "yobreifca.se repository" at "http://yobriefca.se/maven"
+
+addSbtPlugin("se.yobriefca" % "sbt-tasks" % "0.3.16")

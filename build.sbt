@@ -1,3 +1,6 @@
+import play.PlayScala
+import se.yobriefca.SbtTasks._
+
 name := """play-scala"""
 
 version := "1.0-SNAPSHOT"
@@ -12,3 +15,6 @@ libraryDependencies ++= Seq(
   cache,
   ws
 )
+
+//installTask("printy")
+installTask("seedDB")
